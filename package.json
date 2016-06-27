@@ -15,7 +15,7 @@
     "slightcms"
   ],
   "dependencies": {
-    "mongo-light": "https://github.com/Nexination/node-mongo-light"
+    "mongoose": "*"
   },
   "author": "Kristian B",
   "license": "MIT",
