@@ -1,8 +1,11 @@
-let mongoLight = new (require('../node-mongo-light/lib/mongolight'))({"db": "local.nodejs_cms"});
+let admin = new (require('./lib/admin').server);
+/*let database = new (require('./lib/database').client);
+database.connect('localhost:27017/strifecity', 'users');
 setTimeout(() => {
-  mongoLight.insert([{"johnny": "boy"}], (error, result) => {
-    //let timer2 = new Date();
-    console.log('core');
-    //console.log((timer2.getTime() - timer1.getTime()));
-  });
-}, 1000);
+  database.insert([{a : 1}, {a : 2}, {a : 3}]);
+  function jorb(documents) {
+    console.log(documents);
+  };
+  database.select({a:1}, jorb);
+  //{"$set":{"b": 1}}
+}, 1000);*/

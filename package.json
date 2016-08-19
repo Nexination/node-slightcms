@@ -4,6 +4,7 @@
   "description": "A super-light (slight) CMS built in NodeJS, with a focus on simplicity and low resource use.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,7 @@
     "slightcms"
   ],
   "dependencies": {
-    "mongoose": "*"
+    "mongodb": "*"
   },
   "author": "Kristian B",
   "license": "MIT",
