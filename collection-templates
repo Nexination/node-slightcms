@@ -1,0 +1,11 @@
+{
+  "admins": {
+   "name": "",
+   "password": "",
+   "email": ""
+  },
+  "pages": {
+    "header": "",
+    "body": ""
+  }
+}

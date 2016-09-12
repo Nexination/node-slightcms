@@ -1,0 +1,10 @@
+{
+  "mongoPort": 27017,
+  "mongoPath": "localhost",
+  "mongoProject": "slcms",
+  "mongoCollections": {
+    "admins": "admins",
+    "pages": "pages"
+  },
+  "adminPort": 8080
+}
